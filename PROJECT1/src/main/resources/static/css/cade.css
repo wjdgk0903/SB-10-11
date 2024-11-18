@@ -1,0 +1,90 @@
+.product-container {
+    display: flex;
+    position: absolute; /* 절대 위치 지정 */
+    top: 60px; /* 상단에 위치 */
+    right: 0; /* 오른쪽에 위치 */
+    padding: 40px;
+    width: 50%; /* 너비 조정 */
+}
+
+
+.product-details {
+    width: 50%; /* 제품 정보 영역 너비 */
+    padding: 10px;
+    box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-details label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.product-details select,
+.product-details input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.product-details button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy-now {
+    background-color: #333;
+    color: #fff;
+}
+
+.add-to-cart {
+    background-color: #555;
+    color: #fff;
+}
+
+.wishlist {
+    background-color: #777;
+    color: #fff;
+}
+
+.custom-img {
+    width: 100%; /* 화면 크기에 맞게 이미지 크기 자동 조정 */
+    max-width: 500px; /* 최대 너비 500px로 제한 */
+    height: auto; /* 비율을 유지하면서 높이 자동 조정 */
+    padding: 5px; /* 원하는 만큼 패딩 추가 */
+    display: block; /* 이미지를 블록 요소로 만들어 중앙 정렬 */
+}
+
+.navbar-brand {
+    text-align: center; /* 중앙 정렬 */
+    flex-grow: 1; /* 상호명을 중앙에 위치시키기 위해 공간을 차지 */
+    font-family: 'Bad Script', cursive; /* Bad Script 글꼴 적용 */
+    font-size: 36px; /* 원하는 글꼴 크기로 조정 가능 */
+    text-align: center; /* 중앙 정렬 */
+}
+
+button {
+    font-size: 24px; /* 아이콘 크기 */
+    margin: 0 10px; /* 아이콘 간의 간격 */
+}
+
+.header {
+    padding: 10px; /* 헤더에 패딩 추가 */
+}
+
+.icon-container {
+    gap: 10px; /* 아이콘 사이의 간격 설정 */
+}
